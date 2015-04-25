@@ -34,7 +34,7 @@
 			this.game.load.spritesheet("patientcpy3","assets/patientcopy2.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy4","assets/patientcopy3.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy5","assets/patientcopy4.png",90, 134, 1);
-			this.game.load.audio('gaben', 'assets/Untitled.mp3');
+			this.game.load.audio('gaben', 'assets/Untitled1.mp3');
 			this.game.load.audio('ouch', 'assets/ouch1.mp3');
 			this.game.load.audio('got', 'assets/gotitfaris.mp3');
 		},
