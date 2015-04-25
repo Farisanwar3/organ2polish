@@ -27,8 +27,8 @@
 			this.game.load.spritesheet("patient3","assets/patient2.png",90, 134, 1);
 			this.game.load.spritesheet("patient4","assets/patient3.png",90, 134, 1);
 			this.game.load.spritesheet("patient5","assets/patient4.png",90, 134, 1);
-			this.game.load.spritesheet("gaben1","assets/gaben1.png",145, 81, 1);
-			this.game.load.spritesheet("gaben2","assets/gaben2.png",145, 81, 1);
+			this.game.load.spritesheet("gaben1","assets/gaben1.png",100, 55, 1);
+			this.game.load.spritesheet("gaben2","assets/gaben2.png",100, 55, 1);
 			this.game.load.spritesheet("patientcpy1","assets/patientcopy.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy2","assets/patientcopy1.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy3","assets/patientcopy2.png",90, 134, 1);
