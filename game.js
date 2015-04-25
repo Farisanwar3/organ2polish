@@ -34,7 +34,7 @@
 			this.game.load.spritesheet("patientcpy3","assets/patientcopy2.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy4","assets/patientcopy3.png",90, 134, 1);
 			this.game.load.spritesheet("patientcpy5","assets/patientcopy4.png",90, 134, 1);
-			this.game.load.audio('gaben', 'assets/gaben1.mp3');
+			this.game.load.audio('gaben', 'assets/Untitled.wav');
 			this.game.load.audio('ouch', 'assets/ouch1.mp3');
 			this.game.load.audio('got', 'assets/gotitfaris.mp3');
 		},
@@ -85,7 +85,7 @@
 
 			this.bg3 = this.game.add.tileSprite(0,0,1920,1080,'bgSpace2');
 			this.bg3.autoScroll(-this.bg3Speed,0);
-			//this.music = this.game.add.audio('gaben');
+			this.music = this.game.add.audio('gaben');
 			//this.music.loop = true;
 			//this.music.play();
 			this.music1 = this.game.add.audio('ouch');
@@ -464,6 +464,7 @@
 			gaben.kill();
 			//this.lives += 1;
 			//this.music2.play();
+			this.music.play();
 			this.numGabens += 1;
 			this.numGabensText.setText("Gabens Stopped : "+this.numGabens);
 			//this.livesText.setText("Balloons hit by car : "+this.lives);
